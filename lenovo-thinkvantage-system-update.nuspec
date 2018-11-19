@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-thinkvantage-system-update</id>
-    <version>5.07.0072</version>
+    <version>5.07.0074</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>Lenovo System Update</title>
@@ -50,15 +50,9 @@ The following operating system are supported:
 -    Microsoft Windows 7
 	</description>
     <releaseNotes>
-##### Version 5.07.0072 2018-04-20 release
+##### Version 5.07.0074 2018-10-22 release
 
--    (Fix) CET: TVSU ask for credential prompt when running under standard user
--    (Fix) Mapdrv will crash in GUI mode if unc path is empty and user password input more than 300.
--    (Fix) CVE-2017-3773
--    (Update) Update CV library to the latest version - 3.0.9 2.
--    (Update) Show Lenovo support website hyperlink when catalog exception
--    (Update) Copyright changed to 2018
-
+- Fix: [LSU 5.07.0073] Couldn't save credential for UNC repository
 	</releaseNotes>
     <dependencies>
       <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
