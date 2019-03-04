@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-thinkvantage-system-update</id>
-    <version>5.07.0074</version>
+    <version>5.07.0078</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>Lenovo System Update</title>
@@ -49,11 +49,7 @@ The following operating system are supported:
 -    Microsoft Windows 8
 -    Microsoft Windows 7
 	</description>
-    <releaseNotes>
-##### Version 5.07.0074 2018-10-22 release
-
-- Fix: [LSU 5.07.0073] Couldn't save credential for UNC repository
-	</releaseNotes>
+    <releaseNotes>2019-01-25 release - https://download.lenovo.com/pccbbs/thinkvantage_en/systemupdate5.07.0078.txt</releaseNotes>
     <dependencies>
       <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
     </dependencies>
